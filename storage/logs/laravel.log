@@ -1,0 +1,9 @@
+[2026-09-28 17:21:20] local.INFO: Configuration file changed {"file":"C:\\Laravel\\config-monitor\\storage\\config-monitor\\app-config.yml"} 
+[2026-09-28 17:21:20] local.INFO: Configuration parsed successfully {"file":"C:\\Laravel\\config-monitor\\storage\\config-monitor\\app-config.yml","snapshot":{"application":{"name":"SyncWorks Demo","environment":"development","version":"1.0.0","debug":true},"database":{"driver":"mysql","host":"localhost","port":3306,"database":"syncworks","username":"user"},"cache":{"driver":"quenue","host":"127.0.0.1","port":6374},"monitoring":{"enabled":true,"interval":10,"webhook_enabled":true},"logging":{"level":"info","retention_days":41}}} 
+[2026-09-28 17:21:20] local.INFO: About to create ChangeEvent {"monitored_file_id":2,"file_path":"C:\\Laravel\\config-monitor\\storage\\config-monitor\\app-config.yml","changes":{"cache.driver":{"old":"quenue123","new":"quenue"}}} 
+[2026-09-28 17:21:20] local.INFO: ChangeEvent created successfully {"file":"C:\\Laravel\\config-monitor\\storage\\config-monitor\\app-config.yml","monitored_file_id":2,"change_event_id":344} 
+[2026-09-28 17:21:20] local.INFO: ConfigurationChanged event received {"change_event_id":344} 
+[2026-09-28 17:21:21] local.INFO: Webhook job dispatched {"change_event_id":344} 
+[2026-09-28 17:21:22] local.INFO: Sending configuration webhook {"change_event_id":344,"attempt":1} 
+[2026-09-28 17:21:23] local.INFO: Webhook response {"change_event_id":344,"status":200,"successful":true,"attempt":1} 
+[2026-09-28 17:21:23] local.INFO: ChangeEvent webhook status updated {"change_event_id":344,"webhook_status":"sent"} 

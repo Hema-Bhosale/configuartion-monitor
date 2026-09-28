@@ -1,0 +1,10 @@
+{
+    "app": {
+        "name": "this json filer",
+        "debug": false
+    },
+    "database": {
+        "host": "localhost",
+        "port": 3309
+    }
+}
